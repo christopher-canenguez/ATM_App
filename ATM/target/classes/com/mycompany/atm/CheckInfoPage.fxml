@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ff00ff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="com.mycompany.atm.CheckInfoPageController">
+   <children>
+      <Label layoutX="14.0" layoutY="34.0" prefHeight="93.0" prefWidth="249.0" text="C.C. Bank - The Better Way To Bank!" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Tahoma Bold" size="22.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="WHITE" height="340.0" layoutX="263.0" layoutY="34.0" stroke="#ffeaea" strokeType="INSIDE" width="315.0" />
+      <Label layoutX="285.0" layoutY="81.0" prefHeight="17.0" prefWidth="69.0" text="Account #" textFill="MAGENTA">
+         <font>
+            <Font name="Tahoma Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="127.0" prefHeight="17.0" prefWidth="69.0" text="Name" textFill="MAGENTA">
+         <font>
+            <Font name="Tahoma Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="174.0" prefHeight="17.0" prefWidth="69.0" text="Email" textFill="MAGENTA">
+         <font>
+            <Font name="Tahoma Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="217.0" prefHeight="38.0" prefWidth="69.0" text="Current Balance" textFill="MAGENTA" wrapText="true">
+         <font>
+            <Font name="Tahoma Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField focusTraversable="false" layoutX="363.0" layoutY="71.0" prefHeight="37.0" prefWidth="196.0" promptText="Account Number">
+         <font>
+            <Font name="Tahoma" size="16.0" />
+         </font>
+      </TextField>
+      <TextField focusTraversable="false" layoutX="363.0" layoutY="117.0" prefHeight="37.0" prefWidth="196.0" promptText="Name On Account">
+         <font>
+            <Font name="Tahoma" size="16.0" />
+         </font>
+      </TextField>
+      <TextField focusTraversable="false" layoutX="363.0" layoutY="164.0" prefHeight="37.0" prefWidth="196.0" promptText="Email">
+         <font>
+            <Font name="Tahoma" size="16.0" />
+         </font>
+      </TextField>
+      <TextField focusTraversable="false" layoutX="363.0" layoutY="218.0" prefHeight="37.0" prefWidth="196.0" promptText="Current Balance">
+         <font>
+            <Font name="Tahoma" size="16.0" />
+         </font>
+      </TextField>
+      <Button layoutX="376.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Load Info" textFill="MAGENTA">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

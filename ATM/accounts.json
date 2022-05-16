@@ -1,0 +1,20 @@
+[
+{
+"name": "Walter White",
+"id": "1234",
+"pin": "1111",
+"balance": 50000
+},
+{
+"name": "Lionel Messi",
+"id": "2345",
+"pin": "9090",
+"balance": 75000
+},
+{
+"name": "Daenerys Targaryen",
+"id": "5566",
+"pin": "6789",
+"balance": 30000
+}
+] 
